@@ -10,7 +10,7 @@ namespace ExceptionHandling
             {
                 ThrowException(obj);
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return true;
             }
